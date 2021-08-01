@@ -25,7 +25,7 @@ network = {
 ])
 }
 
-class ANM6(ANMEnv):
+class SimpleEnv(ANMEnv):
     
 
     metadata = {'render.modes': ['human']}

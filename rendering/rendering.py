@@ -198,15 +198,15 @@ def write_html(address):
     <script src="js/dateTime.js"></script>
     <script src="js/reward.js"></script>
     <script src="js/text.js"></script>
-    <script src="envs/anm6/svgLabels.js"></script>
-    <title>gym-anm:ANM6</title>
+    <script src="envs/simpleenvironment/svgLabels.js"></script>
+    <title>Simple environment</title>
 </head>
 
 <body onload="init();">
 
     <header></header>
 
-    <object id="svg-network" data="envs/anm6/network.svg"
+    <object id="svg-network" data="envs/simpleenvironment/network.svg"
             type="image/svg+xml" class="network">
     </object>
 

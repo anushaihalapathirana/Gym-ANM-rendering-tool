@@ -1,6 +1,6 @@
 
 import numpy as np
-from anm6 import ANM6
+from simpleEnv import SimpleEnv
 from gym_anm import ANMEnv
 from gym_anm import MPCAgentConstant
 from gym_anm import MPCAgentPerfect
@@ -39,7 +39,7 @@ network = {
 
 
 # create new environment
-class SimpleEnvironment(ANM6):
+class SimpleEnvironment(SimpleEnv):
 
     def __init__(self):
         observation = 'state'             # fully observable environment

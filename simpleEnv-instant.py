@@ -1,12 +1,12 @@
-"""The :code:`ANM6Easy-v0` task."""
+
 
 import numpy as np
 from gym_anm import MPCAgentConstant
 from gym_anm import MPCAgentPerfect
-from anm6 import ANM6
+from simpleEnv import SimpleEnv
 
 
-class SimpleEnv(ANM6):
+class SimpleEnvInst(SimpleEnv):
     """The :code:`SimpleEnv-v0` task."""
 
     def __init__(self):
@@ -125,7 +125,7 @@ def _get_gen_time_series():
 if __name__ == '__main__':
     import time
 
-    env = SimpleEnv()
+    env = SimpleEnvInst()
     env.reset()
     print('Environment reset and ready.')
     agent = MPCAgentConstant(env.simulator, env.action_space, env.gamma, # This policy assumes constant demand and generation during the optimization horizon
