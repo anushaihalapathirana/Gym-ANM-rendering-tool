@@ -133,26 +133,19 @@ if __name__ == '__main__':
     
     max_r = 0
 
-    T = 50
+    T = 10000
     start = time.time()
     for i in range(T):
-        print(i)
-        a = env.action_space.sample()
-        o, r, _, _ = env.step(a)
+        action = agent.act(env)
+        obs, reward, done, _ = env.step(action)
+        if(reward > max_r):
+            max_r = reward
+            obs = obs
+        print(f'reward at t ={i} is {reward:.3}')
+    
         env.render()
         time.sleep(0.5)
 
+    print('maximum reward = ', max_r)
     print('Done with {} steps in {} seconds!'.format(T, time.time() - start))
-    # print(env.action_space)
-
-    # for t in range(100):
-    #     action = agent.act(env)
-        
-    #     env.render()
-    #     o, r, done, _ = env.step(action)
-    #     if(r > max_r):
-    #         max_r = r
-    #         obs = o
-    #     # print(f'reward at t ={t} is {r:.3}')
-    # print('maximum reward = ', max_r)
-    # print('observation = ', obs)
+env.close()
