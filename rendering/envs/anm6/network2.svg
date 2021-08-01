@@ -1041,7 +1041,7 @@
          id="rect1569"
          style="opacity:0.98;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351235;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
     </g>
-    <rect
+    <!-- <rect
        transform="rotate(-90)"
        y="150.70033"
        x="-49.098129"
@@ -1061,15 +1061,15 @@
          y="42.30233"
          x="161.06291"
          id="tspan1322"
-         sodipodi:role="line">0%</tspan></text>
-    <rect
+         sodipodi:role="line">0%</tspan></text> -->
+    <!-- <rect
        style="opacity:0.98;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.342865;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect1571"
        width="5.9404864"
        height="24.657135"
        x="-49.098129"
        y="150.70033"
-       transform="rotate(-90)" />
+       transform="rotate(-90)" /> -->
     <g
        style="stroke:#ff0000;stroke-opacity:1"
        id="g1629"
