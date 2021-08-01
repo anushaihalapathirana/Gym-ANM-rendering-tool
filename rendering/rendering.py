@@ -206,7 +206,7 @@ def write_html(address):
 
     <header></header>
 
-    <object id="svg-network" data="envs/anm6/network2.svg"
+    <object id="svg-network" data="envs/anm6/network.svg"
             type="image/svg+xml" class="network">
     </object>
 
