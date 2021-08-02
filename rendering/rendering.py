@@ -56,9 +56,6 @@ def start(title, dev_type, p_max, q_max, s_rate, v_magn_min, v_magn_max, soc_max
     ws_server = WsServer()
 
     print('\n#######################')
-    print(RENDERING_RELATIVE_PATH)
-    print(os.path)
-    print(RENDERING_FOLDER)
 
     a = http_server.address + '/' + RENDERING_RELATIVE_PATH
     print('Rendering the environment at : ' + a)
