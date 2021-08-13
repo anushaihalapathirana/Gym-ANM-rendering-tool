@@ -8,3 +8,8 @@ This environment is 3 bus system that contains load, wind power, battery and slc
 Main file is [simpleEnv-instant.py](https://github.com/anushaihalapathirana/Gym-ANM-rendering-tool/blob/master/simpleEnv-instant.py)
 
 ```python simpleEnv-instant.py```
+
+You can find the full doumentation from below links
+
+1. https://github.com/anushaihalapathirana/RL-Gym-ANM-tool/blob/master/GymANM-tool.pdf
+2. https://github.com/anushaihalapathirana/RL-Gym-ANM-tool/blob/master/Gym-ANM-tool-Implementation.pdf
